@@ -1,0 +1,49 @@
+body{
+        font-family: "Helvetica";
+        background-color: rgb(240,240,240);
+        color: rgb(89,81,81);
+        margin:50px;
+}
+
+a{
+        color: rgb(89,81,81);
+        font-size: 50px;
+        padding-right: 10px;
+        text-decoration: none;
+}
+
+.container{
+
+        background-color: rgb(184,201,157);
+        border-radius: 10px;
+        padding:50px;
+        max-width:800px;
+        margin:0 auto;
+
+}
+
+.header{
+        font-size:100px;
+        margin: 0;
+        margin-bottom: 10px;
+}
+
+.blurb{
+        font-size: 30px;
+}
+
+.links{
+        font-size: 30px;
+}
+
+.links a{
+     background-color: rgb(240,240,240);
+     border-radius: 5px;
+     padding: 10px;
+     margin:5px;
+     line-height: 90px;
+}
+
+.email{
+        font-size:50px;
+}
