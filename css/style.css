@@ -1,49 +1,121 @@
+
 body{
         font-family: "Helvetica";
-        background-color: rgb(240,240,240);
-        color: rgb(89,81,81);
-        margin:50px;
+        font-style: lighter;
+        background-color: rgb(246,244,241);
+        /*background-image:url('https://sphotos-a.xx.fbcdn.net/hphotos-ash3/216740_10151862787094896_167465176_n.jpg');*/
+        /*background-image:url('http://24.media.tumblr.com/625917b04b8c4f5ce8512f40e8c3305d/tumblr_mlhi3bZX3p1s9qffwo1_1280.jpg');*/
+        
 }
 
 a{
-        color: rgb(89,81,81);
-        font-size: 50px;
+      
+        color:#333333;
+        font-size: 40px;
         padding-right: 10px;
         text-decoration: none;
+        display:inline-block;
+}
+
+a:hover{
+          color:#FF443F;
+       
 }
 
 .container{
 
-        background-color: rgb(184,201,157);
-        border-radius: 10px;
-        padding:50px;
-        max-width:800px;
+        background-color: rgb(246,244,241);
+        /*229,230,224*/
+        /*border-radius: 10px;*/
+        max-width:850px;
+        
+        height:200px;
         margin:0 auto;
+        position:relative;
+        float:left;
+        
+        
+        
+
+
+
+}
+.container2{
+    background-color: rgb(246,244,241);
+    
+    max-width:800px;
+    margin-top: 100px;
+    margin-left: 480px;
+    border-radius: 10px;
+    padding:50px;
+    position: absolute;
+    
+    
 
 }
 
+.container3{
+    background-color: rgb(246,244,241);
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 270px;
+    color:#333333;
+    width:125px;
+}
+
+.photo{
+
+    margin-left: 80px;
+    margin-top: 250px;
+    position:absolute;
+    padding:5px 5px 2px 5px;
+
+}
+
+
 .header{
-        font-size:100px;
-        margin: 0;
-        margin-bottom: 10px;
+        font-size:30px;
+        max-width:800px;
+        height:100px;
+        margin: 10px 10px 10px 10px;
+
+        
+        
 }
 
 .blurb{
         font-size: 30px;
+        color:#FFB43F;
+        /*<div class="blurb">
+            I am a bio/psych student with an attraction towards synthetic neurobiology. I'm most interested in neural prosthetics meant to restore or repair cognitive function, and intend to facilitate their transition into everyday life.    
+            I like to run, too.  
+        </div>*/
+
 }
 
 .links{
-        font-size: 30px;
-}
-
-.links a{
-     background-color: rgb(240,240,240);
-     border-radius: 5px;
-     padding: 10px;
-     margin:5px;
-     line-height: 90px;
+        font-size: 20px;
+        color:#FF443F;
+        float: left;
+        padding:50px 50px 50px 50px;
+        
 }
 
 .email{
-        font-size:50px;
+        color:#333333;
+        font-size:30px;
+        margin-left: 20px;
+        margin-top: 400px;
+        float:left;
+        clear:both;
+        
+
+}
+
+#mycanvas{
+        outline: none;
+        position: absolute;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+        top: 500px;
+        left: 500px;
 }
