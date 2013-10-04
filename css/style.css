@@ -1,121 +1,77 @@
-
-body{
-        font-family: "Helvetica";
-        font-style: lighter;
-        background-color: rgb(246,244,241);
-        /*background-image:url('https://sphotos-a.xx.fbcdn.net/hphotos-ash3/216740_10151862787094896_167465176_n.jpg');*/
-        /*background-image:url('http://24.media.tumblr.com/625917b04b8c4f5ce8512f40e8c3305d/tumblr_mlhi3bZX3p1s9qffwo1_1280.jpg');*/
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>grace blair.</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+   
+    </head>
+  <body>
+    <div class="container">
+        <h1 class="header"><img src="http://31.media.tumblr.com/d8f5ea4cab6d8cd64b4ac0b445a14fe4/tumblr_mtu612ivau1r1488mo1_500.jpg" WIDTH=400px> </h1> 
+    </div>  
+    <div class="photo"> <img src= "http://31.media.tumblr.com/97e3234ecdb7328487a813d679ef3e40/tumblr_mtu2m6BD2Q1r1488mo1_500.jpg" HEIGHT=220px WIDTH=150px />
+    </div>
+     <div class="container2"> 
         
-}
+        <br />
+        <div class="links">
+            <ul>
+            
+            <a href="http://www.facebook.com/gablair"><img src="http://25.media.tumblr.com/e33bca78857bf6a8cd20366801e4d29b/tumblr_mtu7m5iKqB1r1488mo4_500.jpg" WIDTH=150px ></a>
 
-a{
+            <a href="http://photos.graceblair.com/"><img src="http://25.media.tumblr.com/ee1b8118e695201d9cdef97f670fae76/tumblr_mtu76mB2gu1r1488mo1_500.jpg" WIDTH=150px ></a>
+
+            <a href="http://www.linkedin.com/profile/view?id=178712591"><img src="http://31.media.tumblr.com/2295cbe6bae3b5b57580d6ded2f18fac/tumblr_mtu7m5iKqB1r1488mo2_250.jpg" Width=170px ></a>
+
+            <a href="https://twitter.com/GraceABlair"><img src="http://25.media.tumblr.com/ad891335a2b8199fe70fe8e07b84ba24/tumblr_mtu7m5iKqB1r1488mo1_250.jpg" Width=170px> </a>
       
-        color:#333333;
-        font-size: 40px;
-        padding-right: 10px;
-        text-decoration: none;
-        display:inline-block;
-}
-
-a:hover{
-          color:#FF443F;
-       
-}
-
-.container{
-
-        background-color: rgb(246,244,241);
-        /*229,230,224*/
-        /*border-radius: 10px;*/
-        max-width:850px;
+            <a href="http://geneticginger.tumblr.com/"><img src="http://25.media.tumblr.com/e7a8d2bca9ec3aae650fe4d66cbbf6b7/tumblr_mtu7za6gGA1r1488mo1_500.jpg" WIDTH=150px ></a>
         
-        height:200px;
-        margin:0 auto;
-        position:relative;
-        float:left;
-        
-        
-        
+            <a href="GAB resume_Website.pdf"><img src="http://25.media.tumblr.com/677195fd10b0671156e32415ba0be8b5/tumblr_mtu7m5iKqB1r1488mo3_500.jpg" WIDTH=150px ></a>
+            </ul></div>
+      </div>
+      
+      <div class="email"> <h1><a data-email="toynve@yvir.hap.rqh" onmouseover="convert(this)" onclick="convert(this)" href="mailto:gtoynve@yvir.hap.rqh">gblair [at] live [dot] unc [dot] edu</a></h1>
+      </div>
+      
+      <div class="container3">
+        <h3>I, <br>
+            a universe of atoms, 
+            an atom in the universe. </h3>
+        </div>
 
+      <script type="text/javascript">
 
+            var done = false;
+            var az = "abcdefghijklmnopqrstuvwxyzabcdefghijklmABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-}
-.container2{
-    background-color: rgb(246,244,241);
+            var convert = function(el){
+                if(!done){
+                    var converted = dcpt(el.getAttribute('data-email'));
+                    el.href = 'mailto:' + converted;
+                    el.innerHTML = converted;
+                }
+                done = true;
+                
+            }
+
+            var dcpt = function(text) {
+                for (var r = "", i = 0; i < text.length; i++) {
+                    var chr = text.charAt(i);
+                    var position = az.indexOf(chr);
+                    if (position > -1) {
+                        chr = az.charAt(position + 13);
+                    }
+                    r += chr;
+                }
+                return r;
+            };
+
+      </script>
+
     
-    max-width:800px;
-    margin-top: 100px;
-    margin-left: 440px;
-    border-radius: 10px;
-    padding:50px;
-    position: absolute;
+
+      
     
-    
-
-}
-
-.container3{
-    background-color: rgb(246,244,241);
-    position: absolute;
-    margin-left: 260px;
-    margin-top: 270px;
-    color:#333333;
-    width:125px;
-}
-
-.photo{
-
-    margin-left: 80px;
-    margin-top: 250px;
-    position:absolute;
-    padding:5px 5px 2px 5px;
-
-}
-
-
-.header{
-        font-size:30px;
-        max-width:800px;
-        height:100px;
-        margin: 10px 10px 10px 10px;
-
-        
-        
-}
-
-.blurb{
-        font-size: 30px;
-        color:#FFB43F;
-        /*<div class="blurb">
-            I am a bio/psych student with an attraction towards synthetic neurobiology. I'm most interested in neural prosthetics meant to restore or repair cognitive function, and intend to facilitate their transition into everyday life.    
-            I like to run, too.  
-        </div>*/
-
-}
-
-.links{
-        font-size: 20px;
-        color:#FF443F;
-        float: left;
-        padding:50px 50px 50px 50px;
-        
-}
-
-.email{
-        color:#333333;
-        font-size:30px;
-        margin-left: 20px;
-        margin-top: 400px;
-        float:left;
-        clear:both;
-        
-
-}
-
-#mycanvas{
-        outline: none;
-        position: absolute;
-        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-        top: 500px;
-        left: 500px;
-}
+  </body>
+</html>
